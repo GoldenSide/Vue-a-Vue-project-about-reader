@@ -1,0 +1,70 @@
+/*此文件重置或者基础的样式*/
+*[hidefocus] ,input ,textarea ,a{
+  outline: none;
+}
+*{
+  padding:0;
+  margin:0;
+}
+fieldset,img,html,body,iframe{border:0}
+table{border-collapse:collapse;
+      border-spacing:0;
+}
+li{
+  list-style:none;
+}
+h1,h2,h3,h4,h5,h6{
+  font-size:100%;
+}
+em,strong{
+  font-weight: bold;
+  font-style: normal;
+};
+body,textarea,select,input{
+  font-family:arial,microsoft yahei,helvetica,sans-serif;font-size:14px;color:#555;
+}
+body{
+  background: #f8f8f8;
+  line-height:1.5em;
+  -webkit-text-size-adjust:none;
+}
+a,button{
+  cursor: pointer;
+}
+
+textarea{
+  resize:none;
+  overflow:auto;
+}
+pre{
+  white-space: pre-wrap;
+}
+a{
+  color:#333;
+  text-decoration: none;
+}
+input{
+  -webkit-tap-highligth-color:rgba(255,255,255,0);
+  -webkit-user-modify:read-write-plaintext-only;
+}
+button{
+  -webkit-tap-highlight-color:rgba(255,255,255,0)
+}
+.fl{
+float:left;
+}
+.fr{
+  float:right;
+}
+
+.clearfix:after,.clearfix:before{
+  content:'';
+  display:block;
+  height:0;
+  line-height:0;
+  visibility: none;
+  clear:both;
+}
+
+
+
